@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(188, 224, 233);
+    text-align: justify;
+}
+
+h1.h1 {
+    color: blue;
+    text-align: center;
+    font-size: 0.7cm;
+}
+
+h1.h1:first-letter {
+    color: black;
+    font-size: 300%;
+}
+
+div.nav {
+    text-align: center;
+}
+
+a.A{
+    color: blue;
+    text-decoration-line: none;
+}
+
+a.A:hover{
+    color: red;
+    background-color: yellow;
+    
+}
+
+p.frase:first-line{
+    color: red;
+}
+
+div.fondo a:link{
+background-color: white;
+color: blue;
+}
+
+div.fondo a:visited{
+    background-color: blue;
+    color: white;
+}
+
+h1.P1{
+    counter-reset: cuenta-ciclos;
+}
+
+p.productos:before{
+    content: counter(cuenta-ciclos)". ";
+    counter-increment: cuenta-ciclos;
+}
+
+img.imagen{
+    float: right;
+    position: relative;
+    bottom: 50px; 
+}
+
+
